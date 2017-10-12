@@ -24,6 +24,10 @@ train_ldc.py.
 
 ## Set the location for the WikiQA Corpus and training directory
 
+Download the WikiQACorpus from:
+
+https://www.microsoft.com/en-us/download/confirmation.aspx?id=52419
+
 Update the following parameters in train_ldc.py
 > FLAGS.input_dir = '/home/qv/nlp-data/WikiQACorpus'
 
