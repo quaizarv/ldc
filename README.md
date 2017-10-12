@@ -1,5 +1,6 @@
 # Implementation of the "Sentence Similarity Learning by Lexical Decomposition and Composition" Paper
 Authors: Zhiguo Wang and Haitao Mi and Abraham Ittycheriah
+https://arxiv.org/abs/1602.07019
 
 ## Description
 
