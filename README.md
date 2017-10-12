@@ -20,7 +20,7 @@ train_ldc.py.
 
 > FLAGS.embedding_type = 'GoogleNews'
 
-> FLAGS.w2v_file = '<w2v-file-path>/GoogleNews-vectors-negative300.bin'
+> FLAGS.w2v_file = '\<w2v-file-path\>/GoogleNews-vectors-negative300.bin'
 
 ## Set the location for the WikiQA Corpus and training directory
 
