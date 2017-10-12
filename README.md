@@ -20,7 +20,7 @@ train_ldc.py.
 
 > FLAGS.embedding_type = 'GoogleNews'
 
-> FLAGS.w2v_file = '/home/qv/nlp-data/GoogleNews-vectors-negative300.bin'
+> FLAGS.w2v_file = '<w2v-file-path>/GoogleNews-vectors-negative300.bin'
 
 ## Set the location for the WikiQA Corpus and training directory
 
@@ -29,9 +29,9 @@ Download the WikiQACorpus from:
 https://www.microsoft.com/en-us/download/confirmation.aspx?id=52419
 
 Update the following parameters in train_ldc.py
-> FLAGS.input_dir = '/home/qv/nlp-data/WikiQACorpus'
+> FLAGS.input_dir = '<WikiQACorpus-path>/WikiQACorpus'
 
-> FLAGS.data_dir = '/home/qv/wikiqa-train'
+> FLAGS.data_dir = '<train-dir-path>/wikiqa-train'
 
 ## Training
 Set the mode paramter in train_ldc.py to 'train' and then run train_ldc.py
