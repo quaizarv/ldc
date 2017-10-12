@@ -35,6 +35,8 @@ Set the mode paramter in train_ldc.py to 'train' and then run train_ldc.py
 
 > python train_ldc.py
 
+Takes about 150 epochs (pretty fast on a GPU) to converge
+
 # Testing
 Set the mode paramter in train_ldc.py to 'test' and then run train_ldc.py
 > FLAGS.mode = 'test'
